@@ -1,0 +1,20 @@
+*{
+    color: whitesmoke;
+    background-color: #2a273a;
+}
+/* Add styling for the messages container */
+#messages-container {
+    max-height: 300px; /* Set the maximum height as per your design */
+    overflow-y: auto; /* Add a vertical scrollbar when the content exceeds the height */
+    margin-bottom: 20px; /* Optional: Add some bottom margin for spacing */
+  }
+  
+  /* Style your messages as needed */
+  #messages-box {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  
