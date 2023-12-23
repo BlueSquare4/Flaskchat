@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var socket = io.connect('http://' + document.domain + ':' + location.port);
+   const socket = io('http://snoopchat.onrender.com');
 
     // Retrieve user's name from local storage
     var userName = localStorage.getItem('userName');
