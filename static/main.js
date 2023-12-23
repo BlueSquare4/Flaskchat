@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-   const socket = io('http://snoopchat.onrender.com');
+   // Update the WebSocket URL to use wss://
+const socket = io.connect('wss://snoopchat.onrender.com');
+
 
     // Retrieve user's name from local storage
     var userName = localStorage.getItem('userName');
